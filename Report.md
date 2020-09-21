@@ -16,7 +16,7 @@ As production solution this kind of service might be integrated in to car naviga
 ### 2.1 Data sources
 Our data source is open dataset of car accidents in the city of Seattle. It sources from Traffic Management of the city of Seattle and comes as two files: [CSV](https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv) file of actual data and [PDF](https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Metadata.pdf) file with metadata.
 
-The dataset covers the period from 2004 till 2020 and contains about 200k records. The table has various accident properties such as severity, weather, road, geo point, number of vehicles and persons involed etc. This data should be enough for us to pick meaninful features and build consistent and robust model that fulfills the goal of the study.
+The dataset covers the period from 2004 till 2020 and contains about 200k records. The table has various accident properties such as severity, weather, road, geo point, number of vehicles and persons involved etc. This data should be enough for us to pick meaningful features and build consistent and robust model that fulfills the goal of the study.
 
 The dataset is not suitable for Machine Learning "as is", but it will be after some cleanup and reformat.
 
